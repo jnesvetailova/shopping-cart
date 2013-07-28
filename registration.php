@@ -87,7 +87,7 @@
 									<?php
 										$remarks = $_GET['remarks'];
 										if( $remarks == null and $remarks == ""){
-											echo "Register Here';
+											echo "Register Here";
 										} 
 										if( $remarks == 'success'){
 											echo "Registration Sucess!!!";
