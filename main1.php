@@ -55,28 +55,6 @@
 		</div>
 		<div>
 			<p>
-t
-t
-t
-t
-t
-t
-t
-t
-t
-t
-t
-t
-t
-t
-
-t
-t
-
-
-t
-t
-t
 
 
 
