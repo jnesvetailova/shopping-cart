@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
   	<link rel="stylesheet" href="http://codd.cs.gsu.edu/~c43711/Final_Project/css/shop.css" />
+  	<title>Contact Us</title>
 	</head>
 
 	<body>
