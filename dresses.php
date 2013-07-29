@@ -10,7 +10,7 @@
   <div id="menu-wrapper">
 		<div id="menu" class="container">
 			<ul>
-				<li class="current_page_item"><a href="http://codd.cs.gsu.edu/~c43711/Final_Project/main.php">Home</a></li>
+				<li><a href="http://codd.cs.gsu.edu/~c43711/Final_Project/main.php">Home</a></li>
 	
 				<li><a href="http://codd.cs.gsu.edu/~c43711/Final_Project/login.php">Login</a></li>
 				<li><a href="http://codd.cs.gsu.edu/~c43711/Final_Project/registration.php">Register</a></li>
