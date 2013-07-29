@@ -7,7 +7,7 @@
 	$password1 = $_POST['newuserPass'];
 
 	mysql_query("INSERT INTO usertbl_fp(name, username, email, password) VALUES('$fullname', '$username1', '$email', '$password1')");
-	header("location: index.php?remarks=sucess");
+	header("location: main1.php?remarks=sucess");
 	mysql_close($con);
 
 
