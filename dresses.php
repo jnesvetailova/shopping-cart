@@ -21,7 +21,7 @@
 		</div>
 	</div>
 	<div id="logo" class="container">
-		<h1><a href="#">Shop Dresses</a></h1>
+		<h1>Shop Dresses</h1>
 		<p>Here you can find a variety of dresses that we offer for sale in our shop</p>
 	</div>
 
