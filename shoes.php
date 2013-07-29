@@ -21,7 +21,7 @@
 		</div>
 	</div>
 	<div id="logo" class="container">
-		<h1><a href="#">Shop Shoes</a></h1>
+		<h1>Shop Shoes</h1>
 		<p>Here you can find a variety of shoes that we offer for sale in our shop</p>
 	</div>
 
