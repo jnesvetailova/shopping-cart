@@ -35,13 +35,38 @@
         <head>
 
         <body>
+
+<div id="wrapper">
+  <div id="menu-wrapper">
+                	<div id="menu" class="container">
+			<ul>
+				<li><a href="http://codd.cs.gsu.edu/~c43711/Final_Project/main.php">Home</a></li>
+
+				<li><a href="http://codd.cs.gsu.edu/~c43711/Final_Project/login.php">Login</a></li>
+				<li><a href="http://codd.cs.gsu.edu/~c43711/Final_Project/registration.php">Register</a></li>
+				<li><a href="http://codd.cs.gsu.edu/~c43711/Final_Project/shoppingcart.php">Shopping Cart</a></li>
+				<li><a href="http://codd.cs.gsu.edu/~c43711/Final_Project/contact.php">Contact Us</a></li>
+				<li><a href="http://codd.cs.gsu.edu/~c43711/Final_Project/about.php">About Us</a></li>
+					</ul>
+		</div>
+	</div>
+
+
                 
 
                 <br />
                 <form name="loginform1" action="loginexec.php" method="POST">
                         <table border="0" align="center" width="50%" height="30%" >
-                                <h2 align='center'> Welcome back! </h2>
-<p align="center">If you have an account, go ahead and sign in</p>
+
+
+<div id="logo" class="container">
+		<h1>Welcome back!</h1>
+	</div>
+
+                                
+
+
+
 
                                 <tr>
                                         <td colspan='2'>
@@ -58,7 +83,7 @@
 
 
 <tr>
-                                        <td colspan='2'>Please enter username and password below:</td>
+                                        <td colspan='2'><b>Please enter username and password below:</b></td>
                                 </tr>
 
                                 <tr>
@@ -73,7 +98,7 @@
 
                                 <tr>
                                         <td> </td>
-                                        <td><input type="Submit" name="button1" value="Sign In Now!" /></td>
+                                        <td><input type="Submit" class="button" name="button1" value="Sign In Now!" /></td>
                                 </tr>
 
                                 <tr>
@@ -96,4 +121,4 @@
 
 
 <html>
-                                  
+
