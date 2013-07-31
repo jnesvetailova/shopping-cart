@@ -1,0 +1,99 @@
+<?php
+                //Start Session
+                session_start();
+
+                $conn = mysql_connect("localhost", "c43711", "1db23", "c43711");
+
+                //connect to mysql
+                if (! $conn){
+                        die('Could not connect to mysql' .mysql_error());
+                }
+
+                echo 'Connected successfully <br />';
+
+
+                unset($_SESSION['SESS_MEMBER_ID']);
+                unset($_SESSION['SESS_USER_NAME']);
+                unset($_SESSION['SESS_USER_PASSWORD']);
+
+
+        ?>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+
+
+
+        <head> 
+                <title>Member Login</title>
+                <link rel="stylesheet" href="http://codd.cs.gsu.edu/~c43711/Final_Project/css/shop.css" />
+        <head>
+
+        <body>
+                
+
+                <br />
+                <form name="loginform1" action="loginexec.php" method="POST">
+                        <table border="0" align="center" width="50%" height="30%" >
+                                <h2 align='center'> Welcome back! </h2>
+<p align="center">If you have an account, go ahead and sign in</p>
+
+                                <tr>
+                                        <td colspan='2'>
+                                                <?php
+                                                        if(isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0) {
+                                                                echo '<ul class = "err">';
+                                                                foreach ($_SESSION['ERRMSG_ARR'] as $msg) {
+                                                                        echo '<li>', $msg, '</li>';
+                                                                }
+                                                        echo '</ul>';
+                                                        unset($_SESSION['ERRMSG_ARR']);
+                                                        }
+                                                ?>
+
+
+<tr>
+                                        <td colspan='2'>Please enter username and password below:</td>
+                                </tr>
+
+                                <tr>
+                                        <td> Enter Username: </td>
+                                        <td><input type="text" name="loginName" /></td>
+                                </tr>
+
+                                <tr>
+                                        <td> Enter Password: </td>
+                                        <td><input type="password" name="loginPassword" /></td>
+                                </tr>
+
+                                <tr>
+                                        <td> </td>
+                                        <td><input type="Submit" name="button1" value="Sign In Now!" /></td>
+                                </tr>
+
+                                <tr>
+                                        <td colspan="2"> Not a registered user? <a href="http://codd.cs.gsu.edu/~c43711/Final_Project/registration.php"> Click here to create an account!</a> </td>
+                                </tr>
+
+                        </table>
+                </form>
+
+
+                <br />
+                <br />
+
+                <br />
+             
+
+
+
+        </body>
+
+
+<html>
+                                  
